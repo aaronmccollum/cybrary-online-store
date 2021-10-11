@@ -1,0 +1,77 @@
+/* ---NAVBAR STYLES--- */
+::placeholder {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.navbar-left-container,
+.navbar-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pink-cybrary-button {
+    width: 78px;
+    height: 32px;
+    background-color: #E2037A;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar {
+    width: 370px;
+    height: 38px;
+    border-radius: 25px;
+}
+
+.top-left-items {
+    padding-right: 35px;
+}
+
+.top-right-items {
+    padding-right: 30px;
+}
+
+.top-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 70px;
+}
+
+.top-navbar-options {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+#browse-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#browse-label {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+#browse-label:hover,
+.top-navbar-options:hover {
+    color: #E2037A;
+}
+
+#browse-logo {
+    width: 35px;
+    height: auto;
+}
+
+#top-logo {
+    width: 200px;
+    height: auto;
+}

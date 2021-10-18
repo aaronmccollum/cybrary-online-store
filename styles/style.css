@@ -119,3 +119,9 @@
 }
 
 /* ---PRODUCT CONTAINER STYLES--- */
+.top-product-container,
+.bottom-product-container {
+    height: 350px;
+    background-color: aqua;
+    border-style: solid;
+}

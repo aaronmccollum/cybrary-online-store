@@ -121,23 +121,22 @@
 /* ---PRODUCT CONTAINER STYLES--- */
 .top-product-container,
 .bottom-product-container {
-    height: 350px;
-    background-color: aqua;
-    border-style: solid;
+    height: 420px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .product-container {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .product-image {
-    width: 200px;
-    height: auto;
+    height: 250px;
+    width: auto;
 }
 
 .product-label {

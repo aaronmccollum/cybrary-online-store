@@ -124,4 +124,22 @@
     height: 350px;
     background-color: aqua;
     border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+}
+
+.product-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }

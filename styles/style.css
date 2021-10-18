@@ -145,3 +145,46 @@
     font-size: 18px;
     margin: 20px 0 0 0;
 }
+
+/* ---ABOUT CONTAINER STYLES--- */
+.about-cybrary-container,
+.best-course-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 7%;
+}
+
+.about-cybrary-container {
+    padding: 150px 0 0 0;
+}
+
+.about-paragraph,
+.info-images {
+    width: 100%;
+}
+
+.about-header {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-paragraph {
+    font-size: 16px;
+}
+
+.about-paragraph-text {
+    padding-right: 30px;
+}
+
+.best-course-container {
+    padding-top: 90px;
+}
+
+.best-course-paragraph-container {
+    padding-left: 30px;
+}
+
+.info-images {
+    height: 280px;
+    width: auto;
+}

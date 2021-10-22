@@ -188,3 +188,23 @@
     height: 280px;
     width: auto;
 }
+
+/* ---FOOTER STYLES--- */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4;
+    justify-content: space-around;
+    height: 350px;
+    padding: 50px 0 0 0;
+}
+
+.footer-header {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-link-label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

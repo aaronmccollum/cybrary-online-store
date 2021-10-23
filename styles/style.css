@@ -207,6 +207,11 @@
 .footer-link-label {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #828282;
+}
+
+.footer-link-label:hover {
+    color: black;
 }
 
 #footer-logo {

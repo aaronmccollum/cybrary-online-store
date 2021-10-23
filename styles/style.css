@@ -190,6 +190,10 @@
 }
 
 /* ---FOOTER STYLES--- */
+a:link {
+    text-decoration: none;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
